@@ -6,7 +6,7 @@ class MyWebService(object):
 
    @cherrypy.expose
    def index(self):
-      return 'Hello There, Please Access /fizzbuzz end point to print fizzbuzz number sequence....'
+      return 'Hello Telepathy, Please Access /fizzbuzz end point to print fizzbuzz number sequence....'
 
    @cherrypy.expose
    @cherrypy.tools.json_out()
